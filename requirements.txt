@@ -1,0 +1,6 @@
+openai
+requests
+asyncio
+brevo_python
+datetime
+timedelta
