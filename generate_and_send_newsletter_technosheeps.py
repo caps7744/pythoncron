@@ -72,7 +72,8 @@ def summarize_news_with_agent(urls):
 # === PASSO 4: Invio via MailerLite ===
 def send_newsletter(html_content):
 
-    now = datetime.now() + timedelta(minutes = 10)
+    now = datetime.now() + timedelta(hours = 2)
+    now = now + timedelta(minutes = 10)
     send_time = now.strftime("%Y-%m-%d %H:%M:%S")
     print(send_time)
 
