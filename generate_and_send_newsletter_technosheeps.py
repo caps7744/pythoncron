@@ -52,6 +52,7 @@ def summarize_news_with_agent(urls):
     prompt = (
     "You must take a text input that contains some urls and a html template. "
     "Each url is a tech news and you should obtain the news title and a short summarized content of about 100 words for each news. "
+    "Choose also an emoji for each news. "
     "Then you should put all the news you gathered inside the template. Change only the news and leave the rest as is. "
     "Please respond with the html only, without comments or other things. "
     "Here is your input urls: " + urls + ". Here is your input template: " + html_template
